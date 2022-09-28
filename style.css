@@ -1,0 +1,90 @@
+/*directions for the whole webpage*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*header text*/
+header {
+    padding: 0px;
+    text-align: left;
+    background: rgb(180, 209, 127);
+    color: black;
+    height:150px;
+    
+}
+
+/*navigation text*/
+nav {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: right;
+    color:black;
+    flex-direction:row;
+    white-space: nowrap;
+    }
+
+.nav{
+    text-decoration: none;
+    letter-spacing:0.2em;
+    padding:10px 10px;
+    white-space:nowrap;
+    font-size:medium;
+    margin:3px;
+    font-weight:300px;
+}
+h1 {
+    font-size:50px;
+    text-align:left;
+    background:rgb(77, 78, 76);
+    color: rgb(143, 197, 92);
+    background-size:45px 45px;
+    padding: 0px;
+    margin: 10px;
+    display:inline-block;
+    position:static;
+    border-radius:2px;
+
+}
+
+section {
+    font-size:40px;
+    color:rgb(77, 78, 76);;
+    background-size:35px 35px;
+    display:inline-block;
+    line-height:10px;
+    font-weight:bolder;
+    padding:10px;
+    text-align:center;
+    border-radius:25px;
+    border: 2px solid rgb(143, 197, 92);
+    padding: 20px;
+    
+}
+p {
+    text-align:center;
+    color:rgb(77, 78, 76);
+}
+
+/*flexbox for pictures*/
+.flexwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mywork {
+    box-sizing:border-box;
+    border: 2px solid rgb(143, 197, 92);
+    
+}
+
+
+
+
+
+
