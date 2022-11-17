@@ -14,16 +14,16 @@
 <body>
     <!-- header -->  
 <header>
-    <div class="container is-fluid">
+    <div class="hero-image">
         <h1>Iia Wolak</h1>
         
             
             <div class="tabs is-centered">
                 <ul>
                   <li class="is-active"><a>About Me</a></li>
-                  <li><a href="#myWork">My Work</a></li>
-                  <li><a href="#contactMe">Contact Me</a></li>
-                  <li><a>Resume</a></li>
+                  <li class="is-active"><a href="#myWork">My Work</a></li>
+                  <li class="is-active"><a href="#contactMe">Contact Me</a></li>
+                  <li class="is-active"><a>Resume</a></li>
                 </ul>
               
         </nav>
@@ -31,6 +31,7 @@
 </header>
    
     <main>
+        <div id="page-container">
        <!--insert headers and sections-->
        <section class="section1 is-medium">
         <h1 class="title">
@@ -43,28 +44,42 @@
                 I have a minor in Mandarin and I am learning German and Japanese in my freetime.
                 My ultimate goal is to combine language learning with web development and create a program to help others who love to learn languages like I do!</p>
            </section>
-      <section class="section2 is-medium">
+      <section class="section1 is-medium">
         <h1 class="title">
         <a id="myWork">My Work</a></h1>
-        <div class="box-2">
-            <div class="float-container">
-                <div class="float-child">
-                <a href="https://mmllively.github.io/Brews_and_Cruise/">
-                    <img src="./assets/BrewsonyourBlock.png" alt="BOYB">
-                </a> 
-            </div>
-                <div class="float-child">
-                    <a  href="https://wolaki96.github.io/password_generator/">
-                        <img src="./assets/Password generator.PNG">
-                    </a>
-                </div>       
-            </div>
-        </div>
-      </section>
+    
+      <div>
+        <!-- brews on your block - project 1 -->
+        <card class="float-child">
+          
+                <a class="projectlink" title="URL to GitHub Repository" target=”_blank”
+                    href="https://mmllively.github.io/Brews_and_Cruise/">
+                     <img class="projectpic" id="img1" src="./assets/BrewsonyourBlock.png" alt="Brews On Your Block Project Image"
+                    width="100%"></a>
+                    
+       
+     
       
- </main>
+            
+                
+                    <a class="projectlink" title="URL to GitHub Repository" target=”_blank”
+                        href="https://wolaki96.github.io/password_generator/">
+                         <img class="projectpic" id="img2" src="./assets/Password generator.PNG" alt="Brews On Your Block Project Image"
+                        width="100%"></a>
+                        
+            
+            
+                    <a class="projectlink" title="URL to GitHub Repository" target=”_blank”
+                        href="https://github.com/mmllively/Novel_Sips">
+                         <img class="projectpic" id="img3" src="./assets/novelsips.png" alt="Brews On Your Block Project Image"
+                        width="100%"></a>
+                       
+            </card>
+            </div>
+      
+ 
        <!--list of contacts-->
-       <div id="page-container">
+      
         <div id="content-wrap">
           <!-- all other page content -->
         </div>
@@ -72,14 +87,17 @@
             <div class="tabs is-centered">
             <ul>
               <li class="is-active" id="contactMe">
-              <li><a href="tel:8505910565">850-591-0565</a></li>
-              <li><a href = "mailto: wolaki96@gmail.com">wolaki96@gmail.com</a></li>
-              <li><a href="https://github.com/wolaki96">GitHub</a></li>
-              <li><a>LinkedIn</a></li>
-              <li><a href="#aboutMe">About Me</a></li>
+              <li class="is-active"><a href="tel:8505910565">850-591-0565</a></li>
+              <li class="is-active"><a href = "mailto: wolaki96@gmail.com">wolaki96@gmail.com</a></li>
+              <li class="is-active"><a href="https://github.com/wolaki96">GitHub</a></li>
+              <li class="is-active" ><a>LinkedIn</a></li>
+              <li class="is-active"><a href="#aboutMe">About Me</a></li>
             </ul>
           </div></footer>
-    
+      
+       
+        </div>
     
     </body>
+</main>
 </html>
