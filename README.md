@@ -1,2 +1,2 @@
 # homework2
-Creating a website for my portfolio
+Creating a website for my portfolio info
